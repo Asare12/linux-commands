@@ -15,12 +15,12 @@
 
 # More linux
 - To see processes top.
-- To become root user sudo su.
-- To see the history of commands history.
-- To check the status of a process systemctl status process_name.
-- To stop a process systemctl stop process_name.
-- To restart a process systemctl restart process_name.
-- To make a script you must write #!/bin/bash at the start of the file and use a .sh file type.
-- To run a file type sudo bash ./file_name.sh.
-- To change a files mode to executable sudo chmod +x file_name.sh.
-- Once executable, run a script by making it sudo ./provision.sh.
+- To become root user `sudo` su.
+- To see the history of commands `history`.
+- To check the status of a process `systemctl status process_name`.
+- To stop a process `systemctl stop process_name`.
+- To restart a process `systemctl restart process_name`.
+- To make a script you must write `#!/bin/bash` at the start of the file and use a `.sh` file type.
+- To run a file type `sudo bash ./file_name.sh`.
+- To change a files mode to executable `sudo chmod +x file_name.sh`.
+- Once executable, run a script by making it `sudo ./provision.sh`.
