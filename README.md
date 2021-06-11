@@ -12,9 +12,11 @@
 - Delete folder `rm -rf name_of_the_folder`
 - Delete file `rm name_of_the_file`
 - Delete a file or multiple files `rm file_name second_file_name`
+- Copy files or group of files or directory `cp first_file second_file`
+- `man` command in linux is used to display the user manual of any command that we can run on the terminal
 
 # More linux
-- To see processes top.
+- To display linux processes `top`.
 - To become root user `sudo` su.
 - To see the history of commands `history`.
 - To check the status of a process `systemctl status process_name`.
@@ -24,3 +26,29 @@
 - To run a file type `sudo bash ./file_name.sh`.
 - To change a files mode to executable `sudo chmod +x file_name.sh`.
 - Once executable, run a script by making it `sudo ./provision.sh`.
+- To view a snapshot of the current processes `ps`
+- To kill a process `kill [process id]`
+- `kill -9` Meaning the process will be killed by the kernel; this signal cannot be ignored. 9 means KILL signal that is not catchable or ignorable
+
+#### Wildcard Pattern Matching
+`?` – matches any single character 
+`*` – Matches any sequence of characters (including the empty sequence)
+##### Example
+```
+Text = "baaabab",
+Pattern = “*****ba*****ab", output : true
+Pattern = "baaa?ab", output : true
+Pattern = "ba*a?", output : true
+Pattern = "a*ab", output : false 
+```
+
+#### How to Hide Files
+The period (.) at the beginning of the new filename indicates that it’s hidden:
+```
+mv test.txt .test.txt
+```
+To verify the file is now hidden, display the contents of the current directory:
+
+```
+ls –a
+```
