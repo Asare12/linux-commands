@@ -38,6 +38,7 @@
   - STDIN (0) – Standard input
   - STDOUT (1) – Standard output
   - STDERR (2) – Standard error
+  - When we’re going to work with “pipe” tricks, “pipe” will take the STDOUT of a command and pass it to the STDIN of the next command.
 
 #### Wildcard Pattern Matching
 `?` – matches any single character 
