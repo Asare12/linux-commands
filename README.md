@@ -34,6 +34,10 @@
 - The `sort` command arranges text lines in useful ways. This simple tool can help you quickly sort information from the command line.
 - `nl`- Sometimes you may required to count number of lines in a file on Linux command line or shell scripting.
 - `wc` command as described can be used to get the number of newlines, words or bytes contained in a file specified.
+- The “pipe” command is readily available on UNIX/Linux platforms. This command pipes the output of the previous command to the next command. There are literally TONS of situations where this method offers serious value.Before jumping deeper, there’s something to know of. Every single program in the UNIX/Linux system has 3 built-in data streams.
+  - STDIN (0) – Standard input
+  - STDOUT (1) – Standard output
+  - STDERR (2) – Standard error
 
 #### Wildcard Pattern Matching
 `?` – matches any single character 
