@@ -29,6 +29,11 @@
 - To view a snapshot of the current processes `ps`
 - To kill a process `kill [process id]`
 - `kill -9` Meaning the process will be killed by the kernel; this signal cannot be ignored. 9 means KILL signal that is not catchable or ignorable
+- `Tail` is a command which prints the last few number of lines (10 lines by default) of a certain file, then terminates.
+- `Head` command will obviously on the contrary to tail, it will print the first 10 lines of the file.
+- The `sort` command arranges text lines in useful ways. This simple tool can help you quickly sort information from the command line.
+- `nl`- Sometimes you may required to count number of lines in a file on Linux command line or shell scripting.
+- `wc` command as described can be used to get the number of newlines, words or bytes contained in a file specified.
 
 #### Wildcard Pattern Matching
 `?` – matches any single character 
